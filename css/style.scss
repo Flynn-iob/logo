@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+body{
+    header{
+        width: 125vh;
+        margin: auto;
+
+        nav{
+
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Roboto', sans-serif;
+            align-items: center;
+
+
+            h1{
+                font-size: 2em;
+                color: gray;
+                font-family: 'Roboto', sans-serif;
+
+            }
+            #menu{
+                padding-left: 5vh;
+               
+                
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    list-style-type: none;
+                    text-decoration: none;
+                    width: 50vh;
+                    align-items: center;
+                    
+
+                    li{
+                       a{
+                        text-decoration: none;
+                        color: grey;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1em;
+                        
+                       }
+                       
+
+                    }
+
+                    button{
+                        background-color: #32EFFE;
+                        font-size: 20px;
+                        color: white;
+                        padding: 1vh 2vw;
+                        border-radius: 20px;
+
+                    }
+                }
+            }
+        }
+    }
+    #montain{
+        height: 77vh;
+    
+        background-image: url(../img/hero.jpg);
+
+        #boxmontain{
+            align-items: center;
+            justify-content: end;
+            flex-direction: column;
+            display: flex;
+            height: 77vh;
+
+            h2{
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                font-size: 2em;
+               
+            
+
+            }
+            #paramont{
+                font-size: 1em;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                padding-bottom: 10vh;
+                width: 70%;
+    
+            }
+
+        }
+
+        
+    }
+    #about{
+        height: 30vh;
+        display: flex;
+
+        #boxabout{
+
+            width: 50%;
+            margin: auto;
+            
+            h2{
+                text-align: center;
+                font-size: 2.3em;
+                color: #2BCFDC;
+                font-family: 'Merriweather Sans', sans-serif;
+
+
+            }
+            #parabout{
+                font-size: 1em;
+                color: #5d5d5d;
+                font-family: 'Merriweather Sans', sans-serif;
+
+            }
+        }
+
+
+    }
+    #backgroundblue{
+        height: 80vh;
+        background-color:#2BCFDC;
+
+        
+        #teambox{
+            padding-top: 5vh;
+            width: 90vh;
+            margin: auto;
+            text-align: center;
+            color: white;
+            #team{
+                font-family: 'Merriweather Sans', sans-serif; 
+                padding-bottom: 5vh; 
+
+            }
+            #pics{
+                display: flex;
+                justify-content: space-around;
+                height: 20vh;
+                padding-bottom: 5vh; 
+
+                
+
+            }
+            #names{
+                flex-direction: column;
+               
+
+                #nameco{
+                    color: white;
+                    font-family: 'Merriweather Sans', sans-serif;  
+                    display: flex;
+                    justify-content: space-around;
+                }
+                #cofounder{
+                    color: white;
+                    font-family: 'Merriweather Sans', sans-serif;  
+                    display: flex;
+                    justify-content: space-around;
+
+                }
+                
+
+            }
+            #works{
+                color: white;       
+                font-family: 'Merriweather Sans', sans-serif;
+                padding-top: 5vh;
+                button{
+                    
+                    background-color: #32EFFE;
+                    font-size: 20px;
+                    color: white;
+                    padding: 1vh 2vw;
+                    border-radius: 20px;
+                }
+
+            }
+
+        }
+    }
+    #map{
+        background-image: url(../img/Map.png);
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    footer{
+        height: 20vh;
+        
+        
+        background-color: rgb(77, 75, 75);
+        display: flex;
+
+        #textlogo{
+            width: 150vh;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: solid 1px rgb(159, 155, 155);
+            #text{
+                display: flex;
+                justify-content: space-around;
+                width: 60vh;
+                font-family: 'Merriweather Sans', sans-serif;
+                font-size: 0.7em;
+                color: rgb(159, 155, 155);
+
+
+
+            }
+            #logo{
+                text-decoration: none;
+                display: flex;
+                justify-content: space-around;
+                list-style-type: none;
+                width: 30vh;
+                align-items: center;
+                
+                
+                
+                
+                
+                a{
+                    text-decoration: none;
+                    color: rgb(159, 155, 155);
+                    font-size: 1.5em;
+
+
+                }
+            }
+        }
+
+
+    }
+
+
+}

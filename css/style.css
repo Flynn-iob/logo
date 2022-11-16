@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap");
+body header {
+  width: 125vh;
+  margin: auto;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+body header nav h1 {
+  font-size: 2em;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+}
+body header nav #menu {
+  padding-left: 5vh;
+}
+body header nav #menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+  width: 50vh;
+  align-items: center;
+}
+body header nav #menu ul li a {
+  text-decoration: none;
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+body header nav #menu ul button {
+  background-color: #32EFFE;
+  font-size: 20px;
+  color: white;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+}
+body #montain {
+  height: 77vh;
+  background-image: url(../img/hero.jpg);
+}
+body #montain #boxmontain {
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  display: flex;
+  height: 77vh;
+}
+body #montain #boxmontain h2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+body #montain #boxmontain #paramont {
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10vh;
+  width: 70%;
+}
+body #about {
+  height: 30vh;
+  display: flex;
+}
+body #about #boxabout {
+  width: 50%;
+  margin: auto;
+}
+body #about #boxabout h2 {
+  text-align: center;
+  font-size: 2.3em;
+  color: #2BCFDC;
+  font-family: "Merriweather Sans", sans-serif;
+}
+body #about #boxabout #parabout {
+  font-size: 1em;
+  color: #5d5d5d;
+  font-family: "Merriweather Sans", sans-serif;
+}
+body #backgroundblue {
+  height: 80vh;
+  background-color: #2BCFDC;
+}
+body #backgroundblue #teambox {
+  padding-top: 5vh;
+  width: 90vh;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+body #backgroundblue #teambox #team {
+  font-family: "Merriweather Sans", sans-serif;
+  padding-bottom: 5vh;
+}
+body #backgroundblue #teambox #pics {
+  display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  padding-bottom: 5vh;
+}
+body #backgroundblue #teambox #names {
+  flex-direction: column;
+}
+body #backgroundblue #teambox #names #nameco {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+body #backgroundblue #teambox #names #cofounder {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+body #backgroundblue #teambox #works {
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+  padding-top: 5vh;
+}
+body #backgroundblue #teambox #works button {
+  background-color: #32EFFE;
+  font-size: 20px;
+  color: white;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+}
+body #map {
+  background-image: url(../img/Map.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body footer {
+  height: 20vh;
+  background-color: rgb(77, 75, 75);
+  display: flex;
+}
+body footer #textlogo {
+  width: 150vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(159, 155, 155);
+}
+body footer #textlogo #text {
+  display: flex;
+  justify-content: space-around;
+  width: 60vh;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.7em;
+  color: rgb(159, 155, 155);
+}
+body footer #textlogo #logo {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 30vh;
+  align-items: center;
+}
+body footer #textlogo #logo a {
+  text-decoration: none;
+  color: rgb(159, 155, 155);
+  font-size: 1.5em;
+}/*# sourceMappingURL=style.css.map */
